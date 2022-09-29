@@ -1,0 +1,36 @@
+.caixa-principal {
+    border: 2px solid black;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo-produtos {
+    position: absolute;
+    top: 115px;
+}
+
+.caixa-itens {
+    border: 1px solid red;
+    display: inline-block;
+    padding: 20px;
+}
+
+div ul h4 {
+    font-size: 22px;
+}
+
+div ul li {
+    font-size: 18px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.imagem {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Image Magnifier Glass */
