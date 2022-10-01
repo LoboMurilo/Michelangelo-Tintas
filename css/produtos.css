@@ -41,11 +41,22 @@ div ul li {
     transform: scale(1.3);
 }
 
-#btComprar {
+#inQuantidade {
+    width: 20px;
+}
+
+/* ESTILIZAÇÃO DOS BOTÕES DE COMPRA */
+
+.botao {
+    width: 20px
+}
+
+
+.botao {
     display: inline-block;
     margin-top: 10px;
     padding: 5px 5px;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
@@ -54,20 +65,20 @@ div ul li {
     color: #000000;
     background-color: #D7D5D5;
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    border-radius: 10px;
+    box-shadow: 0 2px #999;
   }
 
-#btComprar:hover {
+.botao:hover {
     background-color: #fac9b8ff
 }
 
-#btComprar:active {
+.botao:active {
     background-color: #D7D5D5;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 3px #666;
     transform: translateY(4px);
   }
+/* ESTILIZAÇÃO DOS BOTÕES DE COMPRA TERMINA AQUI */
 
 
 
-/* Image Magnifier Glass */
