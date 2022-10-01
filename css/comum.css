@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+/* REGRA PARA IMPORTAR CSS 
+@import "comum.css"*/
+
+/* CORES QUE VAMOS USAR:
+    light-gray: #D7D5D5;
+    independence: #444054ff;
+    dark-purple: #2f243aff;
+    apricot: #fac9b8ff;
+    middle-red: #db8a74ff;
+    */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    background-color: #2f243aff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.75rem;
+}
+
+a {
+    color: #D7D5D5;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover {
+    color: #fac9b8ff;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    height: 4rem;
+}
+
+.menu li {
+    padding: .75rem 1rem;
+}
+
+.menu li:hover {
+    color: #fac9b8ff;
+    border: 1px solid;
+    border-radius: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #2f243aff;
+    color: #D7D5D5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    color: #fac9b8ff;
+}
