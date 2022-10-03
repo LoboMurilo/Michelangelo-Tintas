@@ -1,0 +1,70 @@
+@import 'comum.css';
+
+main {
+  height: 86vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario {
+  height: 75%;
+  width: 60%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #db8a74ff;
+  border-radius: 2%;
+  color: #2f243aff;
+}
+
+.formulario label {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.formulario input {
+  all: unset;
+  border: 2px solid #fac9b8ff;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.formulario textarea {
+  all: unset;
+  border: 2px solid #fac9b8ff;
+  border-radius: 2%;
+  padding: 0.5rem 0.75rem;
+}
+
+.formulario input:last-child {
+  margin-bottom: 0;
+}
+
+.mensagem {
+  width: 220px;
+}
+
+.formulario button {
+  all: unset;
+  text-align: center;
+  margin-top: 2rem;
+  background: #fac9b8ff;
+  color: #2f243aff;
+  font-weight: bold;
+  border: 1px solid #db8a74ff;
+  border-radius: 5%;
+  padding: 0.5rem 0.75rem;
+  width: 10%;
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
