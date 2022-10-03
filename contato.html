@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Michelangelo Tintas</title>
 
-    <link rel="stylesheet" href="css/comum.css" />
+    <link rel="stylesheet" href="css/contato.css" />
   </head>
   <body>
     <!-- CABEÇALHO -->
@@ -31,7 +31,34 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <form class="formulario">
+        <label for="nome">Deixe seu nome completo:</label>
+        <input
+          type="text"
+          name="nome"
+          class="nome"
+          placeholder="José da Silva"
+        />
+        <label for="email">Deixe seu email:</label>
+        <input
+          type="email"
+          name="email"
+          class="email"
+          placeholder="jose.silva@gmail.com"
+        />
+        <label for="mensagem">Deixe sua mensagem:</label>
+        <textarea
+          name="mensagem"
+          cols="55"
+          rows="6"
+          class="mensagem"
+          placeholder="Descreva sua dúvida, reclamação ou elogio."
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
 
     <!-- RODAPÉ -->
     <footer>
