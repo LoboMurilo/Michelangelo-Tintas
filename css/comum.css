@@ -12,63 +12,90 @@
     */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 nav {
-    background-color: #2f243aff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1.75rem;
+  background-color: #2f243aff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.75rem;
 }
 
 a {
-    color: #D7D5D5;
-    text-decoration: none;
-    transition: .3s;
+  color: #d7d5d5;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 a:hover {
-    color: #fac9b8ff;
+  color: #fac9b8ff;
 }
 
 .menu {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    height: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 4rem;
 }
 
 .menu li {
-    padding: .75rem 1rem;
+  padding: 0.75rem 1rem;
 }
 
 .menu li:hover {
-    color: #fac9b8ff;
-    border: 1px solid;
-    border-radius: 5%;
+  color: #fac9b8ff;
+  border: 1px solid;
+  border-radius: 5%;
+}
+
+.menu li:last-child:hover {
+  border: none;
+  color: #2f243aff;
+}
+
+.carrinho {
+  background: #fac9b8ff;
+  color: #2f243aff;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.carrinho:hover {
+  transform: scale(1.1);
+}
+
+.carrinho span:hover {
+  cursor: pointer;
+}
+
+.carrinho-logo {
+  width: 25px;
+  height: 25px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 footer {
-    background-color: #2f243aff;
-    color: #D7D5D5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #2f243aff;
+  color: #d7d5d5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer a {
-    color: #fac9b8ff;
+  color: #fac9b8ff;
 }
