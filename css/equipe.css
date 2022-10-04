@@ -1,0 +1,115 @@
+@import 'comum.css';
+
+.conteudo{
+    margin-top: 100px;
+
+}
+
+h1{height: 100px;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+font-size: 50px;
+font-weight: 400;
+color:#2f243aff;}
+
+.equipe{height: 70vh;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center ;
+margin: 0 auto;
+}
+
+.border{height: 200px;
+width: 250px;
+background:transparent;
+border-radius: 10px;
+position: relative;}
+
+.border:hover {border-radius: 1px solid #2f243aff }
+
+.card{height: 270px;
+width: 260px;
+background: #808080;
+border-radius: 10px;
+transition: background 0.8s;
+overflow: hidden;
+background:#2f243aff ;
+box-shadow: 0 70px 63px -60px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+cursor: pointer;}
+
+.texto{
+position: absolute;
+margin-left: 10px;
+color:white;
+height: 130px;
+top: 100px;
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: space-around;
+}
+
+.card0{ background: url(/img/isa.png) center center no-repeat;
+background-size: 300px;
+}
+    .card0:hover{background: url(/img/isa.png) left center no-repeat;
+        background-size: 600px;}
+    .card0:hover h2{opacity: 1;}
+    .card0:hover .g{opacity: 1;}
+    .card0:hover a{opacity: 1;
+    color: blue;}
+
+.card1{background: url(/img/mille.png) center center no-repeat;
+    background-size: 300px;
+    }
+    .card1:hover:hover{background:url(/img/mille.png);
+        background-size: 600px;}
+    .card1:hover h2{opacity: 1;}
+    .card1:hover .g{opacity: 1;}
+    .card1:hover a{opacity: 1;
+    color:blue;}
+
+.card2{background: url(/img/murilo.png) center center no-repeat;
+        background-size: 300px;
+        }
+        .card2:hover{background: url(/img/murilo.png) left center no-repeat;
+            background-size: 600px;}
+        .card2:hover h2{opacity: 1;}
+        .card2:hover .g{opacity: 1;}
+        .card2:hover a{opacity: 1;
+        color: blue;}
+
+.card3{background: url(/img/vitor.png) center center no-repeat;
+     background-size: 300px;
+    }
+    .card3:hover{background: url(/img/vitor.png) left center no-repeat;
+            background-size: 600px;}
+    .card3:hover h2{opacity: 1;}
+    .card3:hover .g{opacity: 1;}    
+    .card3:hover a{opacity: 1;
+    color: blue}
+
+h2{color: #D7D5D5;
+margin-left: 20px;
+opacity: 0;
+transition: opacity 1s;
+font-weight: 400;}
+
+.g{opacity: 0;
+transition: opacity 1s;
+margin-right: 10px;
+color: #D7D5D5;
+font-weight: 400 ;}
+
+main a{opacity: 0;
+    transition: opacity 1s;
+padding: 15px 0;
+color:#D7D5D5;
+font-weight: 400;
+}
