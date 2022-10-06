@@ -1,0 +1,46 @@
+@import 'comum.css';
+
+.imagem-topo{
+
+    width: 50vw;
+    height: 900px;
+    margin: 0%;
+}
+
+.fundo-tinta{
+
+    margin: 0%;
+    width: 80vw;
+    height: 1200px;
+}
+
+
+  
+
+.container {
+        position:relative;
+      }
+      
+      #image {
+        
+        width: 100vw;
+        height: 850px;
+      }
+      
+      #titulo {
+        position: absolute;
+        color: aliceblue;
+        font-size: 60px;
+        left: 150px;
+        top: 280px;
+      }
+
+      #texto {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        left: 150px;       
+        top: 380px;
+       
+    }
+ 
